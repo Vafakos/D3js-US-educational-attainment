@@ -92,15 +92,15 @@ label{
 .radio-toolbar label {
 
   display: inline-block;
-  background-color: #ddd;
+  background-color: #bbfff3;
   padding: 4px 11px;
-  font-family: "Muli";
-  font-size: 16px;
-  cursor: pointer;
+  font-family: "Arial Black";
+  font-size: 17px;
+  cursor: grab;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-  background-color: #bbb;
+  background-color: #89bdb3;
 }
 
 
@@ -124,7 +124,7 @@ textarea:focus, input:focus, button:focus, button {
 }
 
 button {
-	border: none;
+	border: outset;
 }
 
 .arc text {
