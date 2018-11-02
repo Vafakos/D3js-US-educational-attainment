@@ -97,6 +97,7 @@ label{
   font-family: "Arial Black";
   font-size: 17px;
   cursor: grab;
+  border-width: 10px;	
   border-style: outset;
 }
 
