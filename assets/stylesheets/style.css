@@ -97,6 +97,7 @@ label{
   font-family: "Arial Black";
   font-size: 17px;
   cursor: grab;
+  border-style: outset;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
@@ -124,7 +125,7 @@ textarea:focus, input:focus, button:focus, button {
 }
 
 button {
-	border: outset;
+	border: none;
 }
 
 .arc text {
