@@ -88,7 +88,9 @@
 	<source src="click.ogg"></source>
   </audio>
 
-	<div id="sounddiv"><bgsound id="sound"></div>  
+	<div id="sounddiv"><bgsound id="sound"></div>
+
+<script>$('a').mouseenter(function() {responsiveVoice.cancel();responsiveVoice.speak($(this).text());});</script>		
 
 </body>
 </html>
