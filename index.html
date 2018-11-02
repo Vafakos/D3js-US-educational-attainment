@@ -20,7 +20,7 @@
         </nav>
     </header>
 <body>
-    <h1 class="title">Educational Attainment in the United States</h1>
+    <h1 class="title" onmouseover="responsiveVoice.cancel();" onmouseover="responsiveVoice.speak('Educational Attainment in the United States');">Educational Attainment in the United States</h1>			
         
 	
 	<p><br></p>
@@ -88,16 +88,7 @@
 	<source src="click.ogg"></source>
   </audio>
 
-	<div id="sounddiv"><bgsound id="sound"></div>
-
-Text to Speech - all links on page spokenJavaScript
-
-<script>
-$('a').mouseenter(function() {
-  responsiveVoice.cancel();
-  responsiveVoice.speak($(this).text());
-});
-</script>		
+	<div id="sounddiv"><bgsound id="sound"></div>	
 
 </body>
 </html>
