@@ -191,16 +191,19 @@ polyline{
 #pie-chart {
     display: block;
     margin: 0 auto;
+    max-width: 100%;	
 }
 
 #treemap {
     display: block;
     margin: 0 auto;
+    max-width: 100%;	
 }
 
 #stacked-bar-chart {
     display: block;
     margin: 0 auto;
+    max-width: 100%;	
 }
 
 .paragraph {
