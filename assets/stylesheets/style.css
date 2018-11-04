@@ -190,20 +190,32 @@ polyline{
 
 #pie-chart {
     display: block;
-    margin: 0 auto;
-    max-width: 30%;	
+    //margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;	
+    max-width: 100%;	
 }
 
 #treemap {
     display: block;
-    margin: 0 auto;
-    max-width: 30%;	
+    //margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;;
+    max-width: 100%;	
 }
 
 #stacked-bar-chart {
     display: block;
-    margin: 0 auto;
-    max-width: 30%;	
+    //margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;	
 }
 
 .paragraph {
