@@ -92,15 +92,17 @@ label{
 .radio-toolbar label {
 
   display: inline-block;
-  background-color: #ddd;
-  padding: 4px 11px;
-  font-family: "Muli";
-  font-size: 16px;
-  cursor: pointer;
+  background-color: #bbfff3;
+  padding: 6px 12px;
+  font-family: "Arial Black";
+  font-size: 17px;
+  cursor: grab;
+  border-width: 4px;	
+  border-style: outset;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-  background-color: #bbb;
+  background-color: #89bdb3;
 }
 
 
@@ -188,12 +190,12 @@ polyline{
 
 #pie-chart {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto;	
 }
 
 #treemap {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto;	
 }
 
 #stacked-bar-chart {
